@@ -1,0 +1,50 @@
+#app {
+    min-width: 400px;
+}
+
+.nav {
+    background: #369;   
+}
+
+.nav a {
+    color: #fff;   
+}
+
+.nav a:hover {
+    color: #fff;   
+    background: #69c;
+}
+
+
+.nav .top, .nav .top:hover {
+    background: url(avatar.jpg) center no-repeat;
+    background-size: 100%;
+}
+
+.panel .item {
+    border-radius: 2px;
+    background: #eee;
+    height: 64px;
+    line-height: 150%;
+    overflow: hidden;
+}
+
+.panel .item span {
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    background: #69c;
+    float: left;
+}
+
+.panel .item a {
+    display: inline-block;
+    padding: 12px;
+    float: left;
+    font-size: 120%;
+    text-decoration: none;
+}
+
+.panel .item a strong {
+    text-decoration: underline;
+}
